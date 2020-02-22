@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test-method Suite" duration-ms="19377" started-at="2020-02-22T09:56:20Z" finished-at="2020-02-22T09:56:40Z">
+    <groups>
+    </groups>
+    <test name="Test-method test" duration-ms="19377" started-at="2020-02-22T09:56:20Z" finished-at="2020-02-22T09:56:40Z">
+      <class name="com.qait.TestNGSelenium.TestSelenium1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qait.TestNGSelenium.TestSelenium1@61832929]" name="setup" is-config="true" duration-ms="4970" started-at="2020-02-22T09:56:20Z" finished-at="2020-02-22T09:56:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="methodtest1()[pri:0, instance:com.qait.TestNGSelenium.TestSelenium1@61832929]" name="methodtest1" duration-ms="2955" started-at="2020-02-22T09:56:25Z" finished-at="2020-02-22T09:56:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodtest1 -->
+      </class> <!-- com.qait.TestNGSelenium.TestSelenium1 -->
+      <class name="com.qait.TestNGSelenium.TestSelenium2">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qait.TestNGSelenium.TestSelenium2@29774679]" name="setup" is-config="true" duration-ms="3683" started-at="2020-02-22T09:56:28Z" finished-at="2020-02-22T09:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="methodtest2()[pri:0, instance:com.qait.TestNGSelenium.TestSelenium2@29774679]" name="methodtest2" duration-ms="7736" started-at="2020-02-22T09:56:32Z" finished-at="2020-02-22T09:56:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodtest2 -->
+      </class> <!-- com.qait.TestNGSelenium.TestSelenium2 -->
+    </test> <!-- Test-method test -->
+  </suite> <!-- Test-method Suite -->
+</testng-results>
