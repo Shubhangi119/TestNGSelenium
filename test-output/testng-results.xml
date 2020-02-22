@@ -1,31 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Test-method Suite" duration-ms="19377" started-at="2020-02-22T09:56:20Z" finished-at="2020-02-22T09:56:40Z">
+  <suite name="Test-method Suite" duration-ms="83" started-at="2020-02-22T13:41:08Z" finished-at="2020-02-22T13:41:08Z">
     <groups>
     </groups>
-    <test name="Test-method test" duration-ms="19377" started-at="2020-02-22T09:56:20Z" finished-at="2020-02-22T09:56:40Z">
-      <class name="com.qait.TestNGSelenium.TestSelenium1">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qait.TestNGSelenium.TestSelenium1@61832929]" name="setup" is-config="true" duration-ms="4970" started-at="2020-02-22T09:56:20Z" finished-at="2020-02-22T09:56:25Z">
+    <test name="Test-method test" duration-ms="83" started-at="2020-02-22T13:41:08Z" finished-at="2020-02-22T13:41:08Z">
+      <class name="com.qait.TestNGSelenium.TestClass1">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qait.TestNGSelenium.TestClass1@d8355a8]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2020-02-22T13:41:08Z" finished-at="2020-02-22T13:41:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="methodtest1()[pri:0, instance:com.qait.TestNGSelenium.TestSelenium1@61832929]" name="methodtest1" duration-ms="2955" started-at="2020-02-22T09:56:25Z" finished-at="2020-02-22T09:56:28Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qait.TestNGSelenium.TestClass1@d8355a8]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2020-02-22T13:41:08Z" finished-at="2020-02-22T13:41:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methodtest1 -->
-      </class> <!-- com.qait.TestNGSelenium.TestSelenium1 -->
-      <class name="com.qait.TestNGSelenium.TestSelenium2">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qait.TestNGSelenium.TestSelenium2@29774679]" name="setup" is-config="true" duration-ms="3683" started-at="2020-02-22T09:56:28Z" finished-at="2020-02-22T09:56:32Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testmessageone()[pri:0, instance:com.qait.TestNGSelenium.TestClass1@d8355a8]" name="testmessageone" duration-ms="9" started-at="2020-02-22T13:41:08Z" finished-at="2020-02-22T13:41:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="methodtest2()[pri:0, instance:com.qait.TestNGSelenium.TestSelenium2@29774679]" name="methodtest2" duration-ms="7736" started-at="2020-02-22T09:56:32Z" finished-at="2020-02-22T09:56:40Z">
+        </test-method> <!-- testmessageone -->
+        <test-method status="PASS" signature="testMethodsTwo()[pri:0, instance:com.qait.TestNGSelenium.TestClass1@d8355a8]" name="testMethodsTwo" duration-ms="9" started-at="2020-02-22T13:41:08Z" finished-at="2020-02-22T13:41:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methodtest2 -->
-      </class> <!-- com.qait.TestNGSelenium.TestSelenium2 -->
+        </test-method> <!-- testMethodsTwo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qait.TestNGSelenium.TestClass1@d8355a8]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-22T13:41:08Z" finished-at="2020-02-22T13:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qait.TestNGSelenium.TestClass1@d8355a8]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-22T13:41:08Z" finished-at="2020-02-22T13:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testmessagetwo()[pri:0, instance:com.qait.TestNGSelenium.TestClass1@d8355a8]" name="testmessagetwo" duration-ms="3" started-at="2020-02-22T13:41:08Z" finished-at="2020-02-22T13:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmessagetwo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qait.TestNGSelenium.TestClass1@d8355a8]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-22T13:41:08Z" finished-at="2020-02-22T13:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qait.TestNGSelenium.TestClass1@d8355a8]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-22T13:41:08Z" finished-at="2020-02-22T13:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qait.TestNGSelenium.TestClass1@d8355a8]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-22T13:41:08Z" finished-at="2020-02-22T13:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethodsOne()[pri:0, instance:com.qait.TestNGSelenium.TestClass1@d8355a8]" name="testMethodsOne" duration-ms="2" started-at="2020-02-22T13:41:08Z" finished-at="2020-02-22T13:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodsOne -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qait.TestNGSelenium.TestClass1@d8355a8]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-22T13:41:08Z" finished-at="2020-02-22T13:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qait.TestNGSelenium.TestClass1@d8355a8]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-22T13:41:08Z" finished-at="2020-02-22T13:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="parameterTest(java.lang.String)[pri:0, instance:com.qait.TestNGSelenium.TestClass1@d8355a8]" name="parameterTest" duration-ms="3" started-at="2020-02-22T13:41:08Z" finished-at="2020-02-22T13:41:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shubhangi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameterTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qait.TestNGSelenium.TestClass1@d8355a8]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2020-02-22T13:41:08Z" finished-at="2020-02-22T13:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qait.TestNGSelenium.TestClass1@d8355a8]" name="afterMethod" is-config="true" duration-ms="2" started-at="2020-02-22T13:41:08Z" finished-at="2020-02-22T13:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Testdepends()[pri:0, instance:com.qait.TestNGSelenium.TestClass1@d8355a8]" name="Testdepends" duration-ms="3" started-at="2020-02-22T13:41:08Z" depends-on-methods="com.qait.TestNGSelenium.TestClass1.testmessageone, com.qait.TestNGSelenium.TestClass1.testmessagetwo" finished-at="2020-02-22T13:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testdepends -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qait.TestNGSelenium.TestClass1@d8355a8]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-22T13:41:08Z" finished-at="2020-02-22T13:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.qait.TestNGSelenium.TestClass1 -->
     </test> <!-- Test-method test -->
   </suite> <!-- Test-method Suite -->
 </testng-results>

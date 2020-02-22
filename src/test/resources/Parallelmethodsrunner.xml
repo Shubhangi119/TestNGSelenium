@@ -2,6 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Test-method Suite" parallel="methods" thread-count="2" >
   <test name="Test-method test" group-by-instances="true">
+  <parameter name = "myName" value="Shubhangi"/> 
     <classes>
       <class name="com.qait.TestNGSelenium.TestClass1" />
     </classes>

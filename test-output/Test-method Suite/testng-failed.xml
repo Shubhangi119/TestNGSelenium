@@ -2,12 +2,16 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Test-method Suite]" parallel="methods">
   <test thread-count="2" name="Test-method test(failed)" parallel="methods">
+    <parameter name="myName" value="Shubhangi"/>
     <classes>
-      <class name="com.qait.TestNGSelenium.TestSelenium1">
+      <class name="com.qait.TestNGSelenium.TestClass1">
         <methods>
-          <include name="methodtest1"/>
+          <include name="Testdepends"/>
+          <include name="afterMethod"/>
+          <include name="testmessage"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- com.qait.TestNGSelenium.TestSelenium1 -->
+      </class> <!-- com.qait.TestNGSelenium.TestClass1 -->
     </classes>
   </test> <!-- Test-method test(failed) -->
 </suite> <!-- Failed suite [Test-method Suite] -->
